@@ -47,6 +47,24 @@ fig_inf = px.pie(df, names='inference_label', title='Inference Classification')
 st.plotly_chart(fig_inf, use_container_width=True)
 
 # 📁 Bar chart: Diagnosis per file
+#st.subheader("📁 Normalised Triage Classification by Referral File")
+#fig_bar = px.bar(df, x='file', color='diagnosis_label', title='Diagnosis per File')
+#st.plotly_chart(fig_bar, use_container_width=True)
+
+# 📁 Bar chart: Diagnosis per file with hover reasons
 st.subheader("📁 Normalised Triage Classification by Referral File")
-fig_bar = px.bar(df, x='file', color='diagnosis_label', title='Diagnosis per File')
+
+# Create hover text column
+df['hover_text'] = 'Diagnosis Reason: ' + df['reason_diagnosis'] + '\nInference Reason: ' + df['reason_inference']
+
+# Create bar chart with hover tooltips
+fig_bar = px.bar(
+    df,
+    x='file',
+    color='diagnosis_label',
+    title='Diagnosis per File',
+    hover_name='hover_text'
+)
+
+# Display chart
 st.plotly_chart(fig_bar, use_container_width=True)
