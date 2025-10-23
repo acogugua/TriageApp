@@ -1,19 +1,19 @@
 file,age,reason_diagnosis,reason_inference,date_triaged,diagnosis_label,inference_label
-0428.pdf,23rd,severe oa,no fracture,23/10/2025 15:56,C2,C2
-3688.pdf,"22, ",,urgent,23/10/2025 15:56,T3,T3
-5065.pdf,16 i,loss of joint space,,23/10/2025 15:56,T3,T3
-5858.pdf,30,severe oa,physio,23/10/2025 15:56,C2,C2
-6102.pdf,17 m,severe degenerative changes,urgent,23/10/2025 15:56,C2,T3
-6105.pdf,45 s,,physio,23/10/2025 15:56,T3,T3
-7174.pdf,75yr,hip oa,physio,23/10/2025 15:56,C2,C2
-7806.pdf,,hip oa,urgent,23/10/2025 15:56,C3,T3
-8143.pdf,22rd,lesion,,23/10/2025 15:56,C1,C1
-9597.pdf,74 u,severe osteoarthritis,urgent,23/10/2025 15:56,C3,C3
-Ref0038_p1.pdf,,,,23/10/2025 15:56,T3,T3
-Ref0038_p2.pdf,,,,23/10/2025 15:56,T3,T3
-Ref0038_p3.pdf,,,,23/10/2025 15:56,T3,T3
-Ref0038_p4.pdf,,,,23/10/2025 15:56,T3,T3
-Ref0038_p5.pdf,,,,23/10/2025 15:56,T3,T3
-Ref0038_p6.pdf,,,,23/10/2025 15:56,T3,T3
-Ref0038_p7.pdf,,,,23/10/2025 15:56,T3,T3
-Referral4doc_0038_p1.pdf,,,,23/10/2025 15:56,T3,T3
+0298.pdf,62,severe oa,no fracture,23/10/2025 15:56,C2,C2
+0297.pdf,30,,urgent,23/10/2025 15:56,T3,C1
+0296.pdf,26,loss of joint space,,23/10/2025 15:56,T3,C2
+0295.pdf,30,severe oa,physio,23/10/2025 15:56,C2,C2
+0294.pdf,69,severe degenerative changes,urgent,23/10/2025 15:56,C1,T3
+0293.pdf,45,Physio,physio,23/10/2025 15:56,T3,T3
+0292.pdf,75yr,hip oa,physio,23/10/2025 15:56,C2,C2
+0291.pdf,,hip oa,urgent,23/10/2025 15:56,C3,C3
+0290.pdf,22,lesion,,23/10/2025 15:56,C1,C1
+0289.pdf,74 yr,severe osteoarthritis,urgent,23/10/2025 15:56,C3,C3
+0288.pdf,70yr,Physio,Physio,23/10/2025 15:56,T3,T3
+0287.pdf,25yr,pain,constant pain,23/10/2025 15:56,T3,T3
+0286.pdf,17yr,severe pain,Fracture,23/10/2025 15:56,C3,C1
+0285.pdf,19yr,Pain,painful joint,23/10/2025 15:56,T3,T3
+0284.pdf,69yr,oa,oa,23/10/2025 15:56,T3,T3
+0283.pdf,54yr,hip pain,hip pain,23/10/2025 15:56,T3,T3
+0282.pdf,,,,23/10/2025 15:56,C2,C3
+0281.pdf,,,,23/10/2025 15:56,C1,C3
