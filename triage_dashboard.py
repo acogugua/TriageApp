@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load triage results
-df = pd.read_csv('triage_results_with_ml.csv')  # Make sure this file exists in your repo
+df = pd.read_csv('triage_results_with_ml.csv')  # Ensure this file exists in your repo
 
 # Page setup
 st.set_page_config(page_title="Hospital Triage Dashboard", layout="wide")
@@ -16,11 +16,17 @@ file_number = st.text_input("Enter File Number")
 if st.button("Search"):
     result = df[df['file'] == file_number]
     if not result.empty:
-        classification = result.iloc[0]['inference_label']
-        reason = result.iloc[0]['reason'] if 'reason' in result.columns else "Reason not available"
-        st.success(f"Classification: {classification}")
+        diagnosis = result.iloc[0]['diagnosis_label']
+        inference = result.iloc[0]['inference_label']
+        reason_diag = result.iloc[0].get('reason_diagnosis', 'Reason for diagnosis not available')
+        reason_inf = result.iloc[0].get('reason_inference', 'Reason for inference not available')
+
+        st.success("Patient Found")
         st.markdown(
-            f"<div title='{reason}' style='font-size:18px; color:blue;'>🩺 {classification}</div>",
+            f"<div style='font-size:18px;'>"
+            f"<span title='{reason_diag}' style='color:darkred;'>🧠 Diagnosis: {diagnosis}</span><br>"
+            f"<span title='{reason_inf}' style='color:darkblue;'>🩺 Inference: {inference}</span>"
+            f"</div>",
             unsafe_allow_html=True
         )
     else:
