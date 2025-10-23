@@ -1,0 +1,19 @@
+file,age,date,reason_diagnosis,reason_inference,date_triaged,diagnosis_label,inference_label
+0428.pdf,23rd,19/08/2021,severe oa,no fracture,23/10/2025 15:56,C2,C2
+3688.pdf,"22, ",3/08/2021,,urgent,23/10/2025 15:56,T3,T3
+5065.pdf,16 i,,loss of joint space,,23/10/2025 15:56,T3,T3
+5858.pdf,30,18/02/2022,severe oa,physio,23/10/2025 15:56,C2,C2
+6102.pdf,17 m,,severe degenerative changes,urgent,23/10/2025 15:56,C2,T3
+6105.pdf,45 s,18/03/2022,,physio,23/10/2025 15:56,T3,T3
+7174.pdf,75yr,17/03/2022,hip oa,physio,23/10/2025 15:56,C2,C2
+7806.pdf,,7/03/2822,hip oa,urgent,23/10/2025 15:56,C3,T3
+8143.pdf,22rd,2/03/2022,lesion,,23/10/2025 15:56,C1,C1
+9597.pdf,74 u,5/03/2022,severe osteoarthritis,urgent,23/10/2025 15:56,C3,C3
+Ref0038_p1.pdf,,,,,23/10/2025 15:56,T3,T3
+Ref0038_p2.pdf,,,,,23/10/2025 15:56,T3,T3
+Ref0038_p3.pdf,,,,,23/10/2025 15:56,T3,T3
+Ref0038_p4.pdf,,,,,23/10/2025 15:56,T3,T3
+Ref0038_p5.pdf,,,,,23/10/2025 15:56,T3,T3
+Ref0038_p6.pdf,,,,,23/10/2025 15:56,T3,T3
+Ref0038_p7.pdf,,,,,23/10/2025 15:56,T3,T3
+Referral4doc_0038_p1.pdf,,,,,23/10/2025 15:56,T3,T3
